@@ -42,7 +42,7 @@ def is_bright_enough(tensor_img, threshold=0.4):
     unnorm = tensor_img * 0.5 + 0.5
     return unnorm.mean().item() >= threshold
 
-# Object detection
+# Object filtering
 def detect_largest_object(tensor_img, area_thresh=0.03):
     unnorm = tensor_img * 0.5 + 0.5
     np_img = unnorm.squeeze().numpy()  # [H, W]
