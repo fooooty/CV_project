@@ -1,0 +1,6 @@
+train: /Users/sonjiyeon/Desktop/CV_project/3rd_task/datasets/images/train
+val: /Users/sonjiyeon/Desktop/CV_project/3rd_task/datasets/images/val
+test: /Users/sonjiyeon/Desktop/CV_project/3rd_task/datasets/images/test
+
+nc: 5
+names: ['Coverall', 'Face_Shield', 'Gloves', 'Goggles', 'Mask']
