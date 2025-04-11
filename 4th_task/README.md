@@ -43,7 +43,7 @@ streamlit run 4th_task/app.py
 ├── upload_labeled.jpg         # 박스 검출 결과 이미지 
 ├── ocr_results.txt            # OCR 텍스트 결과
 ├── find_similarity.py         # OCR 결과와 유사도 기반 후보 추출
-├── book_info.csv              # 유사도 비교용 공공 데이터 포털에서 수집한 도서 정보 데이터셋
+├── book_info.csv              # 유사도 비교용 공공 데이터 포털에서 수집한 도서 정보 데이터셋 (용량 너무 커서 git에 업로드 x)
 ├── similarity_results_top2.txt # 유사도 상위 2개 후보 리스트
 ├── book_info_search.py        # Naver 도서 검색 (Selenium)
 ├── book_info_results.csv      # 크롤링된 책 정보
